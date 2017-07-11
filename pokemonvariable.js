@@ -1,0 +1,24 @@
+var snorlaxHP = 160;
+var snorlaxNum = 143;
+var snorlaxType = "Normal";
+var snorlaxBestMove = "Yawn";
+var snorlaxLastEvo = true;
+var snorlaxAttack = 110;
+var snorlaxDefense = 65;
+var snorlaxSpeed = 30;
+var snorlaxSpAtk = 65;
+var snorlaxSpDef = 110;
+var charmanderHP = 39;
+var charmanderNum = 4;
+var charmanderType = "Fire";
+var charmanderBestMove = "Growl";
+var charmanderLastEvo = no;
+var squirtleHP = 44;
+var squirtleNum = 7;
+var squirtleType = "Water";
+var squirtleBestMove = "Tackle";
+var squirtleLastEvo = no;
+snorlaxHP = snorlaxHP - 50;
+charmanderHP = charmanderHP - 50;
+squirtleHP = squirtleHP - 50;
+
