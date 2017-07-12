@@ -21,11 +21,14 @@ function coolNick(input) {
 
 console.log(coolNick(10));
 
+//Declare an array with two Cool Nick entries to increase his odds
 var people = ["Crhis", "Will", "Edgar", "Faisal", "Cool Nick"]
+//Function to get random number
 function getRandomWinner(index) {
+    // Returns a random random 
     var randomIndex = Math.random() * index;
     var result = Math.floor(randomIndex);
     return result;
 }
-
+//Prints out a random based to the Function
 console.log(people[getRandomWinner(people.length)])
