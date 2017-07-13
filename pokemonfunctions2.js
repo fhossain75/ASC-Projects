@@ -4,9 +4,13 @@ function randLetter () {
         return alphabet[randNumber]
 }
 console.log(randLetter())
-function randWord () {
-    var randLength = Math.floor(Math.random()* 5)
+var randLength = Math.floor(Math.random()* 5 + 1)
+
+function randWord(randLength) {
+   var randWord = ""
     for (var i=0; i<randLength; i++) {
-    var randWord = 
+    randWord = randWord + randLetter()
     }
+    return randWord;
 }
+console.log(randWord(randLength))
