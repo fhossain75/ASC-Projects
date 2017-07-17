@@ -4,6 +4,8 @@ function Supreme(type,color,size, price){
     this.size = size
     this.price = price
 }
+var shirt = new supreme("a", "blue","M","5";)
+
 
 var BoxLogo = new Supreme("tee", "navy", "medium", 44)
 var Motion = new Supreme("tee", "white", "small", 44)
