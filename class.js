@@ -7,7 +7,7 @@ var blastoise = {
     "HP": 150,
     "Level": 55
 }
-functoin Pokemon( HP, Level) {
+function Pokemon( HP, Level) {
     this.hp = hp;
     this.level = level;
 }
