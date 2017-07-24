@@ -1,0 +1,19 @@
+body{
+    margin:0px;
+    font-family: Arial;
+    color:rgb(149, 165, 166);
+}
+h1 {
+        text-align: center;
+        color: rgb(149, 165, 166);
+}
+imgtitle {
+    
+
+}
+img {
+    margin:auto;
+    width: 30%;
+    border: 0px rgb(149, 165, 166);
+    padding: 10px;
+}
