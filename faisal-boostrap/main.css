@@ -1,0 +1,15 @@
+nav {
+    text-align: center;
+}
+ul {
+    padding: 10px;
+}
+li {
+    display: inline;
+}
+logo{
+    border: 0;
+    width: 50px;
+    margin-top: -10px;
+    vertical-align: middle;
+}
