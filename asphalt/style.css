@@ -1,0 +1,19 @@
+body {
+ background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2013/12/metal-wallpapers-1.jpg");
+}
+#headerpic {
+    text-align: center;
+}
+ul{ 
+    padding: 10px;
+    background: white;
+    }
+    li{
+    font-size: 40px;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    }
+h1 {
+    text-align: center;
+    color: white;
+}
