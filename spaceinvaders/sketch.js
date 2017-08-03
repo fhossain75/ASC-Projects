@@ -62,9 +62,9 @@ function draw() {
 //[ENEMY]
 stroke(50);
 //color&size
-  function enemies(x,y)
-  this.x = x
-  this.y = y
+  //function enemies() 
+  //this.x = x
+  //this.y = y
   fill("red");
   ellipse(Ex+75, Ey-400, 24, 24)
   ellipse(Ex, Ey-400, 24, 24)
