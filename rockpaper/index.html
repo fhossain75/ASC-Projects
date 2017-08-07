@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <title>R P S S</title>
+
+   <!--Go to https://console.firebase.google.com-->
+    <!--Sign in and add a project "fireMessage"-->
+    <!--PASTE SNIPPET HERE-->
+   
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDnQNNNMDKAArfQwaZuuEUhGTtvSWcb_yw",
+        authDomain: "faisals-messaging-app.firebaseapp.com",
+        databaseURL: "https://faisals-messaging-app.firebaseio.com",
+        projectId: "faisals-messaging-app",
+        storageBucket: "faisals-messaging-app.appspot.com",
+        messagingSenderId: "67940130575"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+   <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
+
+   <!--custom files-->
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="sketch.css">
+
+</head>
+<body>
+
+   <!--Add your name-->
+    <h1>R P S S</h1>
+    <p> U already know the rules bruh just pick one of the options below and hope u win. sim[ple as dat my guy] </p>
+
+    <div id= "buttons">
+
+       <button type="button">Rock</button>
+
+       <button type="button">Paper</button>
+        
+       <button type="button">Scissors</button>
+    </div>
+    <div id= "scoreboard">
+        <h2> </br> </br> IssaScoreBoard </h2>
+    </div>
+    <p2> ya Score is : </p2>
+</body>
+</html>
