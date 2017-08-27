@@ -5,13 +5,25 @@ p {
     font-size: 50px;
     text-align: center;
 }
-#buttons button{
+.buttons #button1{
     width: 70px;
     height: 70px;
     background-color: midnightblue;
     color: white;
 }
-#buttons{
+.buttons #button2{
+    width: 70px;
+    height: 70px;
+    background-color: midnightblue;
+    color: white;
+}
+.buttons #button3{
+    width: 70px;
+    height: 70px;
+    background-color: midnightblue;
+    color: white;
+}
+.buttons{
     display:flex;
     text-align: center;
     justify-content: space-around;

@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
    <title>R P S S</title>
 
-   <!--Go to https://console.firebase.google.com-->
-    <!--Sign in and add a project "fireMessage"-->
-    <!--PASTE SNIPPET HERE-->
-   
     <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
     <script>
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyDnQNNNMDKAArfQwaZuuEUhGTtvSWcb_yw",
-        authDomain: "faisals-messaging-app.firebaseapp.com",
-        databaseURL: "https://faisals-messaging-app.firebaseio.com",
-        projectId: "faisals-messaging-app",
-        storageBucket: "faisals-messaging-app.appspot.com",
-        messagingSenderId: "67940130575"
+        apiKey: "AIzaSyDxU19uJ04l--v9doI5QM0dvvfiv_bXIIU",
+        authDomain: "favfood-fbbe7.firebaseapp.com",
+        databaseURL: "https://favfood-fbbe7.firebaseio.com",
+        projectId: "favfood-fbbe7",
+        storageBucket: "favfood-fbbe7.appspot.com",
+        messagingSenderId: "1096547662778"
     };
     firebase.initializeApp(config);
     </script>
@@ -32,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
 
    <!--custom files-->
-    <script src="main.js"></script>
+    <script src="main1.js"></script>
     <link rel="stylesheet" href="sketch.css">
 
 </head>
@@ -41,15 +34,20 @@
    <!--Add your name-->
     <h1>R P S S</h1>
     <p> U already know the rules bruh just pick one of the options below and hope u win. sim[ple as dat my guy] </p>
-
-    <div id= "buttons">
-
-       <button type="button">Rock</button>
-
-       <button type="button">Paper</button>
+     
+    <div class ="buttons">
         
-       <button type="button">Scissors</button>
-    </div>
+        <input type="button" id="button1" onclick="rock1();" value="Rock">
+        <input type="button" id="button2" onclick="paper1();" value="Paper">
+        <input type="button" id="button3" onclick="scissors1();"value="Scissors">
+    
+     </div>
+     <div id = "result">
+         </div>
+     <div id = "score">
+     </div>
+     <input type="button" id="submit" onclick="submitScore();"value="Submit Score">
+     
     <div id= "scoreboard">
         <h2> </br> </br> IssaScoreBoard </h2>
     </div>
